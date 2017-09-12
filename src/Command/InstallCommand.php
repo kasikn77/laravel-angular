@@ -20,6 +20,11 @@ class InstallCommand extends Command
      * @var string
      */
     protected $description = 'Install Laravel & Angular package';
+    
+    
+    public function handle(){
+        $this->fire();
+    }
 
     /**
      * Execute the console command.
